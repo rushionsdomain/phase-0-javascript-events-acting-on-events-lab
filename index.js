@@ -28,3 +28,19 @@ document.addEventListener("keydown", function (event) {
     moveDodgerRight();
   }
 });
+
+// Grab the dodger element
+//    javascript
+//    const dodger = document.getElementById('dodger');
+
+// Move the dodger left:
+//    - Get its current position.
+//    - If it’s not at the left edge, move it 1 pixel to the left.
+
+// Move the dodger right:
+//    - Get its current position.
+//    - If it’s not at the right edge, move it 1 pixel to the right.
+
+// Handle keydown events:
+//    - If the left arrow key is pressed, move the dodger left.
+//    - If the right arrow key is pressed, move the dodger right.
